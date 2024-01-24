@@ -13,15 +13,24 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./Footer.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menu = document.querySelector(".navbar ul");
+
+        document.addEventListener("click", function () {
+          menu.classList.toggle("active");
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="container">
       <!-- NAV SECTION -->
-      <nav class="fixed top-0 right-0 left-0 bg-[#191D20]">
+      <nav class="">
         <div class="navbar">
           <h1>Black Tiger <span>Coffee</span></h1>
           <i class="fa-solid fa-bars md:hidden"></i>
-          <ul class="active">
+          <ul class="active" onclick="toggleMenu()">
             <li>
               <a href="./index.html" class="hover:text-[#d47946] duration-100"
                 >Home</a
@@ -261,7 +270,7 @@
               class="icon"
             />
             <div class="descr">
-              <h1>John D. Ogama</h1>
+              <h1>Unknown</h1>
               <p>Developer</p>
             </div>
           </div>
@@ -274,7 +283,7 @@
               class="icon"
             />
             <div class="descr">
-              <h1>John D. Ogama</h1>
+              <h1>Unknown</h1>
               <p>Developer</p>
             </div>
           </div>
@@ -287,7 +296,7 @@
               class="icon"
             />
             <div class="descr">
-              <h1>John D. Ogama</h1>
+              <h1>Unknown</h1>
               <p>Developer</p>
             </div>
           </div>
@@ -300,7 +309,7 @@
               class="icon"
             />
             <div class="descr">
-              <h1>John D. Ogama</h1>
+              <h1>Unknown</h1>
               <p>Developer</p>
             </div>
           </div>
@@ -313,7 +322,7 @@
               class="icon"
             />
             <div class="descr">
-              <h1>John D. Ogama</h1>
+              <h1>Unknown</h1>
               <p>Developer</p>
             </div>
           </div>

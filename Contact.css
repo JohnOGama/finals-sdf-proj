@@ -68,7 +68,76 @@ nav .navbar ul a:hover {
   color: #d47946;
 }
 
+.contact-section {
+  margin: 100px 0;
+}
+
+.contact-section {
+  margin: 100px 0;
+  color: white;
+}
+
+.contact-section img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.loc .icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loc .icon h1 {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.loc p {
+  color: white;
+}
+
+.loc {
+  background-color: var(--background-opacity);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.par {
+  position: relative;
+}
+
+.par img {
+  opacity: 0.3;
+}
+
+.acs {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+a {
+  color: white;
+}
+
 @media (min-width: 768px) {
+  .contact-section img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .acs {
+    margin-top: 150px;
+  }
+  .loc {
+    grid-template-columns: repeat(3, 1fr);
+  }
   nav .navbar i {
     display: none;
   }
@@ -80,6 +149,25 @@ nav .navbar ul a:hover {
 }
 
 @media (min-width: 1024px) {
+  .tt {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+  }
+  .acs {
+    gap: 20px;
+  }
+  .b {
+    margin-top: 20px;
+  }
+  .cu {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .contact-section img {
+    height: 400px;
+    object-fit: cover;
+  }
   nav .navbar i {
     display: none;
   }
